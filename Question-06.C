@@ -18,7 +18,7 @@ int main()
                         }
                         break;
                 
-                case 0:  switch( x % 4 == 0)
+                case 0: switch( x % 4 == 0)
                         {
                                 case 1 : printf("%d is a leap year.",x);break;
                                 case 0 : printf("%d is a nonleap year.",x);break;

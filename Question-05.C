@@ -20,17 +20,13 @@ int main()
         
         switch(x)
         {
-                case 1: if(x==1)
-                        printf("good"); break;
+                case 1: printf("good"); break;
                 
-                case 2: if(x==2)
-                        printf("better"); break;
+                case 2: printf("better"); break;
 
-                case 3: if(x==3)
-                        printf("best"); break;
+                case 3: printf("best"); break;
                 
-                default : printf("Invalid number :(");
-                
+                default : printf("Invalid number :(");         
         }
                 
         return 0;
